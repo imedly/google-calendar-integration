@@ -4,5 +4,7 @@ const app = express()
 
 const PORT = process.env.NODE_ENV || 8000
 
+app.get('/google', (req))
+
 app.listen(PORT, () =>{console.log("Server startd on port : ", PORT);});
 
