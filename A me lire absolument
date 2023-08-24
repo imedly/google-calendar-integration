@@ -1,0 +1,8 @@
+le fichier .env doit étre placé au dossier racine, par exemple dans le case de mon projet il est placé directement sous le dossier google-calendar-integration.
+
+Les commandes et dev()dependencies qu'il faut executer sur le projet au fur et à mesure du déploiement du projet :
+
+"npm install -g pnpm" => permet l'installation du package avec paramétre environement global.
+"pnpm add dotenv"
+"pnpm i express googleapis"
+"pnpm init" => pour initialiser le projet

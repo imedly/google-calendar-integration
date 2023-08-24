@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-dotenv.config();
+dotenv.config({});
 
 import express from "express";
 import { google } from "googleapis";
@@ -20,7 +20,7 @@ app.get("/google", (req, res) => {
     const url = oauth2Client.generateAuthUrl({
       access_type: "offline",
       scope: scopes,
-      redirect_uri: process.env.REDIRECT_URL, // Spécifiez explicitement le redirect_uri ici
+      redirect_uri: process.env.REDIRECT_URL // Spécifiez explicitement le redirect_uri ici
     });
     res.redirect(url);
   });
