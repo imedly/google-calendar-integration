@@ -434,7 +434,7 @@ Voici quelques idées que je planifie rajouter au repos :
 * **Ajouter la possibilité de rechercher des événements dans les calendriers.** Cela permettrait aux utilisateurs de trouver rapidement les événements dont ils ont besoin.
 * **Ajouter la possibilité d'exporter les données des calendriers au format CSV ou JSON.** Cela permettrait aux utilisateurs de sauvegarder ou de partager les données de leurs calendriers.
 
-* Ces suggestions sont bien sûr à adapter aux besoins spécifiques des utilisateurs. Elles pourraient être implémentées au fur et à mesure du développement de l'application Web.
+Ces suggestions sont bien sûr à adapter aux besoins spécifiques des utilisateurs. Elles pourraient être implémentées au fur et à mesure du développement de l'application Web.
 
 Voici quelques autres idées plus spécifiques :
 
@@ -443,7 +443,7 @@ Voici quelques autres idées plus spécifiques :
 * **Ajouter la possibilité d'ajouter des notes et des commentaires aux événements.**
 * **Ajouter la possibilité de lier des événements à des tâches ou des rappels.**
 
-* Ces suggestions permettraient de rendre l'application Web plus flexible et plus puissante.
+Ces suggestions permettraient de rendre l'application Web plus flexible et plus puissante.
 
 # 11. License 
 
