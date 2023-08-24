@@ -35,49 +35,34 @@ Les utilisateurs peuvent importer des événements de leurs calendriers Google d
 
 ### Utilisation de l'application
 
-**Inscription ou Connexion**
+<ul data-sourcepos="11:1-18:0">
+<li data-sourcepos="11:1-11:41"><h6>Inscription ou Connexion </h6> Si vous êtes un nouvel utilisateur, commencez par vous inscrire en fournissant vos informations personnelles. Si vous avez déjà un compte, connectez-vous avec vos identifiants.</li>
 
-Si vous êtes un nouvel utilisateur, commencez par vous inscrire en fournissant vos informations personnelles. Si vous avez déjà un compte, connectez-vous avec vos identifiants.
+<li data-sourcepos="11:1-11:41"><h6>Tableau de bord</h6> Après la connexion, vous serez redirigé vers le tableau de bord principal. Ici, vous verrez un aperçu de vos tâches actives, vos projets en cours, et d'autres informations pertinentes. </li>
 
-**Tableau de Bord**
+<li data-sourcepos="11:1-11:41"><h6>Création de Tâches</h6> Pour ajouter une nouvelle tâche, cliquez sur le bouton "Ajouter Tâche". Renseignez les détails de la tâche, comme le titre, la date d'échéance et la description. Ensuite, cliquez sur "Enregistrer" pour ajouter la tâche à votre liste. </li>
 
-Après la connexion, vous serez redirigé vers le tableau de bord principal. Ici, vous verrez un aperçu de vos tâches actives, vos projets en cours, et d'autres informations pertinentes.
+<li data-sourcepos="11:1-11:41"><h6>Visualisation et Gestion</h6> Dans votre liste de tâches, vous pouvez voir les tâches triées par date d'échéance. Cliquez sur une tâche pour afficher plus de détails et éventuellement la marquer comme terminée. </li>
 
-**Création de Tâches**
+<li data-sourcepos="11:1-11:41"><h6>Gestion de Projets</h6> Si vous travaillez sur des projets plus larges, vous pouvez créer des projets et organiser vos tâches en conséquence. Vous pouvez ajouter des tâches à des projets spécifiques pour une meilleure organisation. </li>
 
-Pour ajouter une nouvelle tâche, cliquez sur le bouton "Ajouter Tâche". Renseignez les détails de la tâche, comme le titre, la date d'échéance et la description. Ensuite, cliquez sur "Enregistrer" pour ajouter la tâche à votre liste.
+<li data-sourcepos="11:1-11:41"><h6>Notifications</h6> L'application enverra des notifications pour les tâches à venir et les dates d'échéance. Assurez-vous d'activer les notifications pour ne pas manquer les tâches importantes. </li>
 
-**Visualisation et Gestion**
+<li data-sourcepos="11:1-11:41"><h6>Personalisation</h6> Vous pouvez personnaliser votre profil et vos préférences dans les paramètres de l'application. Modifiez votre image de profil, ajustez les rappels et configurez d'autres options selon vos besoins. </li>
 
-Dans votre liste de tâches, vous pouvez voir les tâches triées par date d'échéance. Cliquez sur une tâche pour afficher plus de détails et éventuellement la marquer comme terminée.
-
-**Gestion de Projets**
-
-Si vous travaillez sur des projets plus larges, vous pouvez créer des projets et organiser vos tâches en conséquence. Vous pouvez ajouter des tâches à des projets spécifiques pour une meilleure organisation.
-
-**Notifications**
-
-L'application enverra des notifications pour les tâches à venir et les dates d'échéance. Assurez-vous d'activer les notifications pour ne pas manquer les tâches importantes.
-
-**Personnalisation**
-
-Vous pouvez personnaliser votre profil et vos préférences dans les paramètres de l'application. Modifiez votre image de profil, ajustez les rappels et configurez d'autres options selon vos besoins.
-
-**Déconnexion**
-
-Lorsque vous avez terminé, assurez-vous de vous déconnecter pour sécuriser votre compte.
+<li data-sourcepos="11:1-11:41"><h6>Déconnexion</h6> Lorsque vous avez terminé, assurez-vous de vous déconnecter pour sécuriser votre compte. </li>
 
 # Biblios et Framework exploité(e)s
 
 Les bilbiothéques/frameworks utilisés pour mettre en oeuvre le projet comprend la liste suivante :
 
-| <img src="" alt="Description de l'image" width="300" > | React est une bibliothèque JavaScript pour créer des interfaces utilisateur. C'est une bibliothèque populaire et bien documentée, ce qui en fait un choix idéal pour développer des projets d'interface utilisateur. |
+| <img src="https://miro.medium.com/v2/resize:fit:1200/1*y6C4nSvy2Woe0m7bWEn4BA.png" alt="Description de l'image" width="300" > | React est une bibliothèque JavaScript pour créer des interfaces utilisateur. C'est une bibliothèque populaire et bien documentée, ce qui en fait un choix idéal pour développer des projets d'interface utilisateur. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | Next.js est un framework React qui permet de créer des applications Web statiques et dynamiques. Il est basé sur la notion de pages, qui sont des composants React qui sont associés à des URLs spécifiques. Next.js est populaire pour sa vitesse, sa scalabilité et sa facilité de développement. |
+| <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rd3omc5vp71r5k9z69b4.png" alt="Description de l'image" width="300" > | Next.js est un framework React qui permet de créer des applications Web statiques et dynamiques. Il est basé sur la notion de pages, qui sont des composants React qui sont associés à des URLs spécifiques. Next.js est populaire pour sa vitesse, sa scalabilité et sa facilité de développement. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | Google Calendar API est une API REST qui permet d'accéder aux données des calendriers Google. Elle fournit des méthodes pour créer, lire, mettre à jour et supprimer des événements, des calendriers et des utilisateurs. La Google Calendar API est utilisée pour synchroniser les calendriers Google avec l'application Web. |
+| <img src="https://lh3.googleusercontent.com/PVe1qU58ryjSA4nEllsvJIA1g9qJSu1h8vfHvgOsBhfsNV-gFkCiBl8B6Aqpux9iYoqRdoTLxwvVBVDE1SE" alt="Description de l'image" width="300" > | Google Calendar API est une API REST qui permet d'accéder aux données des calendriers Google. Elle fournit des méthodes pour créer, lire, mettre à jour et supprimer des événements, des calendriers et des utilisateurs. La Google Calendar API est utilisée pour synchroniser les calendriers Google avec l'application Web. |
 |---|---|
 
 | <img src="" alt="Description de l'image" width="300" > | date-fns est une bibliothèque JavaScript qui fournit une variété de fonctions pour manipuler les dates et les heures. Elle fournit des fonctions pour convertir des dates et des heures entre différents formats, pour calculer des différences de temps et pour effectuer d'autres opérations courantes sur les dates et les heures. date-fns est utilisée pour traiter les dates et les heures dans l'application Web. |
@@ -166,9 +151,11 @@ pnpm run dev
 ### 2. Configuration des API, OAuth2 coté Google Cloud Platform
 
 --> 1 Visiter le lien çi-dessous pour activer l'API Google Calendar(Primordailes pour l'execution de l'application Web) :
+
   <a href="https://console.cloud.google.com/apis/api/calendar-json.googleapis.com/">Google Calendar API</a> et cliquez sur le bouton "Activate".
 
 --> 2 Visiter le lien çi-dessous pour créer et configurer le client ID OAuth : 
+
   <a href="https://console.cloud.google.com">Google Cloud Console</a>
 
 --> 3 Cliquer par la suite sur "Credentials" -> "Create Project".
@@ -180,21 +167,35 @@ pnpm run dev
 --> 6 Cliquer sur le radio Button "External" et par la suite cliquer sur le boutton "Create".
 
 --> 7 Remplir le formulaire (Remplissez uniquement les champs suivants), et cliquez par la suite sur "Save and continue": 
-      App name : le nom de l'app
-      User Support Email : Votre adresse mail
-      Developer contact information : Votre adresse mail
+
+      App name : le nom de l'app.
+      
+      User Support Email : Votre adresse mail.
+      
+      Developer contact information : Votre adresse mail.
+      
 --> 8 Cliquer sur "ADD or Remove Scopes" et valider les deux premiers champs suivants, puis cliquez sur "Update" puis cliquer "Save and continue":
+
       .../auth/userinfo.email
+      
       .../auth/userinfo.profile
+      
 --> 9 Par la suite, une nouvelle fenétre "Test Users" s'affiche, cliquez sur "Add users", entrez votre boite mail sur le textbox , et valider en cliquant sur "Add" et puis sur "Save and Continue".
+
 --> 10 sur le formulaire suivant qui contient le récapitulatif, cliquer sur "Back to dashboard".
 
 ### 3. Creation et configuration du Client OAuth ID 
 
 Aprés le validation du formulaire, revenez sur "Credentials" et cliquez sur "+ Create credentials".
--> Cliquez sur Oauth Client ID
--> Validez sur Application Type : Web Application
--> Ajoutez sur "Authorized redirect URIs" : http://localhost:8000/google/redirect (c'est le méme champ de redirection qui doit se trouvez sur le fichier .env file du projet)
+
+-> Cliquez sur Oauth Client ID.
+
+-> Validez sur Application Type : Web Application.
+
+-> Ajoutez sur "Authorized redirect URIs" : http://localhost:8000/google/redirect (c'est le méme champ de redirection qui doit se trouvez sur le fichier .env file du projet).
+
 -> Cliquez par la suite sur "Create", téléchargez le fichier Json ou CP/CLL les informations suivantes (ces informations doivent également figurer sur le fichier .env):
-    ** Your Client ID
-    ** You Client Secret
+
+    Your Client ID
+    
+    Your Client Secret
