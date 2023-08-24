@@ -298,11 +298,13 @@ Ce fichier configure la configuration Tailwind CSS de l'application Web.
 
 <img src="https://github.com/imedly/google-calendar-integration/blob/main/src/Request_Tokens_ConsoleLog.png" alt="Capture_Image_3" >
 
-# 8. Structure du code de l'application
+# 8. Structure de l'application
 
 L'application Google Calendar Integration est structurée en deux parties principales : le front-end et le back-end.
 
-**Front-end**
+## 8.1. Structure du Code de l'application
+
+#### Front-end
 
 Le front-end de l'application est construit avec React, un framework JavaScript populaire pour créer des interfaces utilisateur. Le front-end est responsable de l'affichage des données des calendriers Google à l'utilisateur.
 
@@ -313,7 +315,7 @@ Le front-end de l'application est structuré en quatre dossiers principaux :
 * **pages** contient les pages React qui sont utilisées pour afficher différents aspects de l'application.
 * **styles** contient les styles CSS qui sont utilisés pour formater l'affichage des données des calendriers Google.
 
-**Back-end**
+#### Back-end
 
 Le back-end de l'application est construit avec Node.js, un framework JavaScript populaire pour créer des serveurs Web. Le back-end est responsable de l'accès aux données des calendriers Google et de la fourniture de ces données au front-end.
 
@@ -327,7 +329,9 @@ L'application Google Calendar Integration est conçue pour être scalable et ext
 
 L'application Google Calendar Integration est structurée en deux parties principales : le front-end et le back-end.
 
-### Structure des fichiers du Repos Google-Calendar-Integration
+## 8.2. Structure des fichiers du Repos Google-Calendar-Integration
+
+#### Front-end
 
 Le front-end de l'application est structuré en quatre dossiers principaux :
 
@@ -336,7 +340,7 @@ Le front-end de l'application est structuré en quatre dossiers principaux :
 * **pages** contient les pages React qui sont utilisées pour afficher différents aspects de l'application.
 * **styles** contient les styles CSS qui sont utilisés pour formater l'affichage des données des calendriers Google.
 
-**Back-end**
+#### Back-end
 
 Le back-end de l'application est construit avec Node.js, un framework JavaScript populaire pour créer des serveurs Web. Le back-end est responsable de l'accès aux données des calendriers Google et de la fourniture de ces données au front-end.
 
@@ -356,15 +360,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-#### `npm start`
+#### `pnpm run dev`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:8000/google/) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-#### `npm test`
+#### `pnpm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -379,7 +383,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### `npm run eject`
+#### `pnpm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
