@@ -232,7 +232,7 @@ Voici l'arborescence complète du dépôt Google Calendar Integration :
 └── tailwind.config.js
 ```
 
-**.env**
+**.env** , Ce fichier étre placé à la racine de Google-Calendar-Integration (commme indiqué dans l'arborescence).
 
 Ce fichier contient les variables d'environnement qui sont utilisées pour configurer l'application Web.
 
@@ -354,9 +354,23 @@ L'application Google Calendar Integration est conçue pour être scalable et ext
 
 # 9. Mise en déploiement (Script original de Facebook Docs)
 
+### 1. Mode d'execution (Coté Dev.)
+
+#### Terminal 
+
+``` clear ```
+
+``` pnpm run dev ```
+
+#### Navigateur
+
+``` Accés sur http://localhost:8000/google ``` avec retour "Connexion Réussie"
+
+``` Accés sur http://localhost:8000/schedule_event ``` avec retour message "Done" (càd Evenement intégrée sur Google Calendar)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Available Scripts
+### 2. Available Scripts
 
 In the project directory, you can run:
 
@@ -393,7 +407,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Learn More
+### 3. Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
