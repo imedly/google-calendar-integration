@@ -2,13 +2,13 @@
 
 Ce readme.md file est Spécifique au repos Google-Calendar-Integration
 
-# Introduction
+# 1. Introduction
 
 Ce projet est une application Web qui permet aux utilisateurs de synchroniser leurs calendriers Google avec leur application Web. L'application est écrite en JavaScript et utilise React et Next.js.
 
 L'application est conçue pour être simple à utiliser et à naviguer. Les utilisateurs peuvent facilement synchroniser leurs calendriers(événements) Google avec leur application Web, et ils peuvent également voir les événements de leurs calendriers Google dans leur application Web.
 
-# Fonctionnalités et utilisations
+# 2. Fonctionnalités et utilisations
 
 L'application dispose des fonctionnalités suivantes :
 
@@ -54,7 +54,7 @@ Les utilisateurs peuvent importer des événements de leurs calendriers Google d
 
 <li data-sourcepos="11:1-11:41"><h6>Déconnexion</h6> Lorsque vous avez terminé, assurez-vous de vous déconnecter pour sécuriser votre compte. </li>
 
-# Biblios et Framework exploité(e)s
+# 3. Biblios et Framework exploité(e)s
 
 Les bilbiothéques/frameworks utilisés pour mettre en oeuvre le projet comprend la liste suivante :
 
@@ -94,7 +94,7 @@ Les bilbiothéques/frameworks utilisés pour mettre en oeuvre le projet comprend
 | <img src="https://static-production.npmjs.com/338e4905a2684ca96e08c7780fc68412.png" alt="Description de l'image" width="300" > | uuid est un générateur de valeurs d'identification uniques globales (UUID). Il est utilisé pour générer des ID uniques pour les événements du calendrier. |
 |---|---|
 
-# Dépendences et Gestionnaires de packages exploités
+# 4. Dépendences et Gestionnaires de packages exploités
 
 Les gestionnaires de packages utilisés pour mettre en oeuvre le projet comprend la liste suivante :
 
@@ -114,7 +114,7 @@ Les gestionnaires de packages utilisés pour mettre en oeuvre le projet comprend
 |---|---|
 
 
-# Installation des bilbiothéques et dépendences associés
+# 5. Installation des bilbiothéques et dépendences associés
 
 Pour installer les dépendances nécessaires pour exécuter l'application, exécutez les commandes suivantes :
 
@@ -130,7 +130,7 @@ pnpm add dotenv
 npm install -g pnpm
 ```
 
-### 1. Installation des dépendances pour le développement
+### 5.1. Installation des dépendances pour le développement
 
 Pour installer les dépendances nécessaires pour le développement de l'application, exécutez les commandes suivantes :
 
@@ -150,7 +150,7 @@ pnpm init
 pnpm run dev
 ```
 
-### 2. Configuration des API, OAuth2 coté Google Cloud Platform
+### 5.2. Configuration des API, OAuth2 coté Google Cloud Platform
 
 --> 1 Visiter le lien çi-dessous pour activer l'API Google Calendar(Primordailes pour l'execution de l'application Web) :
 
@@ -202,7 +202,7 @@ Aprés le validation du formulaire, revenez sur "Credentials" et cliquez sur "+ 
     
     Your Client Secret
 
-# 4. Organisation et arborescence du repos
+# 6. Organisation et arborescence du repos
 
 Voici l'arborescence complète du dépôt Google Calendar Integration :
 
@@ -284,7 +284,7 @@ Ce dossier contient les styles CSS de l'application Web.
 
 Ce fichier configure la configuration Tailwind CSS de l'application Web.
 
-# 5. Exemples d'utilisation
+# 7. Exemples d'utilisation
 
 ### Capture Screen 1
 
@@ -298,7 +298,7 @@ Ce fichier configure la configuration Tailwind CSS de l'application Web.
 
 <img src="https://github.com/imedly/google-calendar-integration/blob/main/src/Request_Tokens_ConsoleLog.png" alt="Capture_Image_3" >
 
-# 6. Structure du code de l'application
+# 8. Structure du code de l'application
 
 L'application Google Calendar Integration est structurée en deux parties principales : le front-end et le back-end.
 
@@ -348,7 +348,7 @@ Le service CalendarService utilise la Google Calendar API pour accéder aux donn
 
 L'application Google Calendar Integration est conçue pour être scalable et extensible. Elle est également conçue pour être facile à maintenir et à développer.
 
-# 7. Mise en déploiement (Script original de Facebook Docs)
+# 9. Mise en déploiement (Script original de Facebook Docs)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -419,7 +419,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-# 8. Remarques et idées de contributions
+# 10. Remarques et idées de contributions
 
 Voici quelques idées que je planifie rajouter au repos :
 
@@ -441,10 +441,10 @@ Voici quelques autres idées plus spécifiques :
 
 Ces suggestions permettraient de rendre l'application Web plus flexible et plus puissante.
 
-# 9. License 
+# 11. License 
 
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
-# 10. Auteurs
+# 12. Auteurs
 
 Visiter mes projets Github sur <a href="https://github.com/imedly">El Mehdi Iddouch</a>.
