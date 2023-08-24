@@ -186,7 +186,7 @@ pnpm run dev
 
 *  Sur le formulaire suivant qui contient le récapitulatif, cliquer sur "Back to dashboard".
 
-### 3. Creation et configuration du Client OAuth ID 
+### 5.3. Creation et configuration du Client OAuth ID 
 
 Aprés le validation du formulaire, revenez sur "Credentials" et cliquez sur "+ Create credentials".
 
