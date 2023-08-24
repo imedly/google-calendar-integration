@@ -1,4 +1,4 @@
-# google-calendar-integration
+# Google-Calendar-Integration
 
 Ce readme.md file est Spécifique au repos Google-Calendar-Integration
 
