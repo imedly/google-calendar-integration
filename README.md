@@ -152,55 +152,55 @@ pnpm run dev
 
 ### 5.2. Configuration des API, OAuth2 coté Google Cloud Platform
 
---> 1 Visiter le lien çi-dessous pour activer l'API Google Calendar(Primordailes pour l'execution de l'application Web) :
+*  Visiter le lien çi-dessous pour activer l'API Google Calendar(Primordailes pour l'execution de l'application Web) :
 
   <a href="https://console.cloud.google.com/apis/api/calendar-json.googleapis.com/">Google Calendar API</a> et cliquez sur le bouton "Activate".
 
---> 2 Visiter le lien çi-dessous pour créer et configurer le client ID OAuth : 
+*  Visiter le lien çi-dessous pour créer et configurer le client ID OAuth : 
 
   <a href="https://console.cloud.google.com">Google Cloud Console</a>
 
---> 3 Cliquer par la suite sur "Credentials" -> "Create Project".
+*  Cliquer par la suite sur "Credentials" -> "Create Project".
 
---> 4 Nommer votre projet -> Cliquer sur le bouton "Create".
+*  Nommer votre projet -> Cliquer sur le bouton "Create".
 
---> 5 Cliquer sur le bouton "Credentials" par la suite sur "Configure Consent Screen".
+*  Cliquer sur le bouton "Credentials" par la suite sur "Configure Consent Screen".
 
---> 6 Cliquer sur le radio Button "External" et par la suite cliquer sur le boutton "Create".
+*  Cliquer sur le radio Button "External" et par la suite cliquer sur le boutton "Create".
 
---> 7 Remplir le formulaire (Remplissez uniquement les champs suivants), et cliquez par la suite sur "Save and continue": 
+*  Remplir le formulaire (Remplissez uniquement les champs suivants), et cliquez par la suite sur "Save and continue": 
 
-      App name : le nom de l'app.
+       App name : le nom de l'app.
       
-      User Support Email : Votre adresse mail.
+       User Support Email : Votre adresse mail.
       
-      Developer contact information : Votre adresse mail.
+       Developer contact information : Votre adresse mail.
       
---> 8 Cliquer sur "ADD or Remove Scopes" et valider les deux premiers champs suivants, puis cliquez sur "Update" puis cliquer "Save and continue":
+*  Cliquer sur "ADD or Remove Scopes" et valider les deux premiers champs suivants, puis cliquez sur "Update" puis cliquer "Save and continue":
 
-      .../auth/userinfo.email
+       .../auth/userinfo.email
+       
+       .../auth/userinfo.profile
       
-      .../auth/userinfo.profile
-      
---> 9 Par la suite, une nouvelle fenétre "Test Users" s'affiche, cliquez sur "Add users", entrez votre boite mail sur le textbox , et valider en cliquant sur "Add" et puis sur "Save and Continue".
+*  Par la suite, une nouvelle fenétre "Test Users" s'affiche, cliquez sur "Add users", entrez votre boite mail sur le textbox , et valider en cliquant sur "Add" et puis sur "Save and Continue".
 
---> 10 sur le formulaire suivant qui contient le récapitulatif, cliquer sur "Back to dashboard".
+*  Sur le formulaire suivant qui contient le récapitulatif, cliquer sur "Back to dashboard".
 
 ### 3. Creation et configuration du Client OAuth ID 
 
 Aprés le validation du formulaire, revenez sur "Credentials" et cliquez sur "+ Create credentials".
 
--> Cliquez sur Oauth Client ID.
+*  Cliquez sur Oauth Client ID.
 
--> Validez sur Application Type : Web Application.
+*  Validez sur Application Type : Web Application.
 
--> Ajoutez sur "Authorized redirect URIs" : http://localhost:8000/google/redirect (c'est le méme champ de redirection qui doit se trouvez sur le fichier .env file du projet).
+*  Ajoutez sur "Authorized redirect URIs" : http://localhost:8000/google/redirect (c'est le méme champ de redirection qui doit se trouvez sur le fichier .env file du projet).
 
--> Cliquez par la suite sur "Create", téléchargez le fichier Json ou CP/CLL les informations suivantes (ces informations doivent également figurer sur le fichier .env):
+*  Cliquez par la suite sur "Create", téléchargez le fichier Json ou CP/CLL les informations suivantes (ces informations doivent également figurer sur le fichier .env):
 
-    Your Client ID
-    
-    Your Client Secret
+       Your Client ID
+       
+       Your Client Secret
 
 # 6. Organisation et arborescence du repos
 
