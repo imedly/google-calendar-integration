@@ -65,50 +65,50 @@ Les bilbiothéques/frameworks utilisés pour mettre en oeuvre le projet comprend
 | <img src="https://lh3.googleusercontent.com/PVe1qU58ryjSA4nEllsvJIA1g9qJSu1h8vfHvgOsBhfsNV-gFkCiBl8B6Aqpux9iYoqRdoTLxwvVBVDE1SE" alt="Description de l'image" width="300" > | Google Calendar API est une API REST qui permet d'accéder aux données des calendriers Google. Elle fournit des méthodes pour créer, lire, mettre à jour et supprimer des événements, des calendriers et des utilisateurs. La Google Calendar API est utilisée pour synchroniser les calendriers Google avec l'application Web. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | date-fns est une bibliothèque JavaScript qui fournit une variété de fonctions pour manipuler les dates et les heures. Elle fournit des fonctions pour convertir des dates et des heures entre différents formats, pour calculer des différences de temps et pour effectuer d'autres opérations courantes sur les dates et les heures. date-fns est utilisée pour traiter les dates et les heures dans l'application Web. |
+| <img src="https://ucarecdn.com/95a1afed-cc7c-45d8-b74e-9c3adc6b9430/-/format/auto/-/progressive/yes/-/preview/2048x2048/" alt="Description de l'image" width="300" > | date-fns est une bibliothèque JavaScript qui fournit une variété de fonctions pour manipuler les dates et les heures. Elle fournit des fonctions pour convertir des dates et des heures entre différents formats, pour calculer des différences de temps et pour effectuer d'autres opérations courantes sur les dates et les heures. date-fns est utilisée pour traiter les dates et les heures dans l'application Web. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | react-helmet est une bibliothèque React qui permet d'ajouter des métadonnées à la page HTML. C'est une bibliothèque populaire et bien documentée, ce qui en fait un choix idéal pour développer des projets qui nécessitent d'ajouter des métadonnées à la page HTML. |
+| <img src="https://miro.medium.com/v2/resize:fit:640/0*LPvu8HCNQfYNPK7I" alt="Description de l'image" width="300" > | react-helmet est une bibliothèque React qui permet d'ajouter des métadonnées à la page HTML. C'est une bibliothèque populaire et bien documentée, ce qui en fait un choix idéal pour développer des projets qui nécessitent d'ajouter des métadonnées à la page HTML. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | react-icons est une bibliothèque React qui fournit une variété d'icônes. C'est une bibliothèque populaire et bien documentée, ce qui en fait un choix idéal pour développer des projets qui nécessitent d'utiliser des icônes. |
+| <img src="https://dev-to-uploads.s3.amazonaws.com/i/ke6hqywlnr8b3r896hii.png" alt="Description de l'image" width="300" > | react-icons est une bibliothèque React qui fournit une variété d'icônes. C'est une bibliothèque populaire et bien documentée, ce qui en fait un choix idéal pour développer des projets qui nécessitent d'utiliser des icônes. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | axios est un client HTTP pour JavaScript. Il est utilisé pour effectuer des requêtes HTTP vers les API REST. |
+| <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--oGEXGSkH--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iu70z7h4vp482ptvsw3d.png" alt="Description de l'image" width="300" > | axios est un client HTTP pour JavaScript. Il est utilisé pour effectuer des requêtes HTTP vers les API REST. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | moment est une bibliothèque JavaScript qui fournit une API pour manipuler les dates et les heures. Elle est très complète et prend en charge une variété de formats de dates et de fuseaux horaires. |
+| <img src="https://www.drupal.org/files/project-images/moment.png" alt="Description de l'image" width="300" > | moment est une bibliothèque JavaScript qui fournit une API pour manipuler les dates et les heures. Elle est très complète et prend en charge une variété de formats de dates et de fuseaux horaires. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | dayjs est une bibliothèque JavaScript qui fournit une API pour manipuler les dates et les heures. Elle est plus petite et plus rapide que moment, et elle est conçue pour être utilisée avec les calendriers. |
+| <img src="https://day.js.org/img/logo.png" alt="Description de l'image" width="300" > | dayjs est une bibliothèque JavaScript qui fournit une API pour manipuler les dates et les heures. Elle est plus petite et plus rapide que moment, et elle est conçue pour être utilisée avec les calendriers. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | tailwindcss est une bibliothèque CSS qui fournit une variété de classes CSS prêtes à l'emploi. C'est une bibliothèque populaire et bien documentée, ce qui en fait un choix idéal pour développer des projets qui nécessitent d'utiliser des classes CSS prêtes à l'emploi. |
+| <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*oPL8C-i04sqAUoOS_da9aA.jpeg" alt="Description de l'image" width="300" > | tailwindcss est une bibliothèque CSS qui fournit une variété de classes CSS prêtes à l'emploi. C'est une bibliothèque populaire et bien documentée, ce qui en fait un choix idéal pour développer des projets qui nécessitent d'utiliser des classes CSS prêtes à l'emploi. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | nodemon est un utilitaire qui permet de redémarrer automatiquement un serveur Node.js lorsque le code est modifié. Il est utilisé pour faciliter le développement et le débogage de l'application Web. |
+| <img src="https://repository-images.githubusercontent.com/958314/195c4a80-7da7-11e9-9a33-54d9fffac84f" alt="Description de l'image" width="300" > | nodemon est un utilitaire qui permet de redémarrer automatiquement un serveur Node.js lorsque le code est modifié. Il est utilisé pour faciliter le développement et le débogage de l'application Web. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | uuid est un générateur de valeurs d'identification uniques globales (UUID). Il est utilisé pour générer des ID uniques pour les événements du calendrier. |
+| <img src="https://static-production.npmjs.com/338e4905a2684ca96e08c7780fc68412.png" alt="Description de l'image" width="300" > | uuid est un générateur de valeurs d'identification uniques globales (UUID). Il est utilisé pour générer des ID uniques pour les événements du calendrier. |
 |---|---|
 
 # Dépendences et Gestionnaires de packages exploités
 
 Les gestionnaires de packages utilisés pour mettre en oeuvre le projet comprend la liste suivante :
 
-| <img src="" alt="Description de l'image" width="300" > | npm est un gestionnaire de packages pour JavaScript. Il est utilisé pour installer et gérer les dépendances du projet. |
+| <img src="https://static-00.iconduck.com/assets.00/npm-icon-1024x1024-lgwc8aqk.png" alt="Description de l'image" width="300" > | npm est un gestionnaire de packages pour JavaScript. Il est utilisé pour installer et gérer les dépendances du projet. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | pnpm est un gestionnaire de packages pour JavaScript. Il est similaire à npm, mais il offre une variété d'améliorations, notamment une meilleure gestion des dépendances et une plus grande vitesse.|
+| <img src="https://d33wubrfki0l68.cloudfront.net/aad219b6c931cebb53121dcda794f6180d9e4397/17f34/assets/images/pnpm-standard-79c9dbb2e99b8525ae55174580061e1b.svg" alt="Description de l'image" width="300" > | pnpm est un gestionnaire de packages pour JavaScript. Il est similaire à npm, mais il offre une variété d'améliorations, notamment une meilleure gestion des dépendances et une plus grande vitesse.|
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | dotenv est une bibliothèque JavaScript qui permet de charger les variables d'environnement dans le code. Elle est utilisée pour charger les variables d'environnement qui sont utilisées pour configurer l'application Web. |
+| <img src="https://miro.medium.com/v2/resize:fit:367/1*RpLmxDEkngiyxpLHWh46-Q.png" alt="Description de l'image" width="300" > | dotenv est une bibliothèque JavaScript qui permet de charger les variables d'environnement dans le code. Elle est utilisée pour charger les variables d'environnement qui sont utilisées pour configurer l'application Web. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | express est un framework Node.js pour créer des serveurs Web. Il est utilisé pour créer le serveur Web qui est utilisé pour servir l'application Web. |
+| <img src="https://miro.medium.com/v2/resize:fit:1400/1*XP-mZOrIqX7OsFInN2ngRQ.png" alt="Description de l'image" width="300" > | express est un framework Node.js pour créer des serveurs Web. Il est utilisé pour créer le serveur Web qui est utilisé pour servir l'application Web. |
 |---|---|
 
-| <img src="" alt="Description de l'image" width="300" > | googleapis est un package NPM qui fournit une interface JavaScript pour les API Google. Il est utilisé pour accéder aux API Google Calendar. |
+| <img src="https://www.drupal.org/files/project-images/Google-API.jpg" alt="Description de l'image" width="300" > | googleapis est un package NPM qui fournit une interface JavaScript pour les API Google. Il est utilisé pour accéder aux API Google Calendar. |
 |---|---|
 
 
