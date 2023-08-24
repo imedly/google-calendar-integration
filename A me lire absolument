@@ -3,6 +3,25 @@ le fichier .env doit étre placé au dossier racine, par exemple dans le case de
 Les commandes et dev()dependencies qu'il faut executer sur le projet au fur et à mesure du déploiement du projet :
 
 "npm install -g pnpm" => permet l'installation du package avec paramétre environement global.
-"pnpm add dotenv"
-"pnpm i express googleapis"
-"pnpm init" => pour initialiser le projet
+"pnpm add dotenv".
+"pnpm i express googleapis".
+"pnpm init" => pour initialiser le projet.
+"pnpm run dev" pour démarrer le serveur localhost au port 8000.
+"pnpm i axios" => pour la gesiton des request http.
+"pnpm install dayjs" => pour l'utiliser avec les fonctionalités du calendrier.
+"pnpm install nodemon --save-dev" => pour le demon localhost nodejs.
+"pnpm i uuid" je l'ai ajouté pour les évenements calendar_conference.
+
+il faut aller sur console.cloud.google.com section Api et services activés pour activer l'api google calendar API. et cliquer sur le bouton Activer : https://console.cloud.google.com/apis/api/calendar-json.googleapis.com/metrics?project=oauthexperiment-396821&hl=FR&supportedpurview=project
+
+a chque fois qu'on veut insérer un event sur google calendar , il faut basolument suivre les étapes :
+
+au niveau du terminal >> 
+clear
+pnpm run dev
+
+au niveau du navigateur >>
+accéder premiérement au site web http://localhost:8000/google 
+on doit recevoir un retour de message (Connexion réussie)
+accéder deuxiémement au site web http://locahost:8000/schedule_event
+on doit recevoir un retour de message (Done) càd que l'event a été bien insérer.
