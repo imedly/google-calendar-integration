@@ -1,5 +1,7 @@
 # google-calendar-integration
+
 Ce readme.md file est Spécifique au repos Google-Calendar-Integration
+
 # Introduction
 
 Ce projet est une application Web qui permet aux utilisateurs de synchroniser leurs calendriers Google avec leur application Web. L'application est écrite en JavaScript et utilise React et Next.js.
@@ -199,3 +201,250 @@ Aprés le validation du formulaire, revenez sur "Credentials" et cliquez sur "+ 
     Your Client ID
     
     Your Client Secret
+
+# 4. Organisation et arborescence du repos
+
+Voici l'arborescence complète du dépôt Google Calendar Integration :
+
+```
+.
+├── .env
+├── .gitignore
+├── README.md
+├── next.config.js
+├── package.json
+├── public
+│   └── favicon.ico
+├── src
+│   ├── components
+│   │   ├── Calendar.tsx
+│   │   ├── CalendarList.tsx
+│   │   ├── Event.tsx
+│   │   └── Header.tsx
+│   ├── hooks
+│   │   └── useCalendar.ts
+│   ├── pages
+│   │   └── Home.tsx
+│   ├── services
+│   │   └── CalendarService.ts
+│   └── styles
+│       └── index.css
+└── tailwind.config.js
+```
+
+**.env**
+
+Ce fichier contient les variables d'environnement qui sont utilisées pour configurer l'application Web.
+
+**.gitignore**
+
+Ce fichier contient une liste des fichiers et des dossiers qui ne doivent pas être inclus dans le dépôt Git.
+
+**README.md**
+
+Ce fichier contient une description du projet.
+
+**next.config.js**
+
+Ce fichier configure le serveur Web Next.js.
+
+**package.json**
+
+Ce fichier contient la liste des dépendances du projet.
+
+**public**
+
+Ce dossier contient les fichiers statiques de l'application Web, tels que les icônes et les images.
+
+**src**
+
+Ce dossier contient le code source de l'application Web.
+
+**components**
+
+Ce dossier contient les composants React de l'application Web.
+
+**hooks**
+
+Ce dossier contient les hooks React de l'application Web.
+
+**pages**
+
+Ce dossier contient les pages React de l'application Web.
+
+**services**
+
+Ce dossier contient les services de l'application Web.
+
+**styles**
+
+Ce dossier contient les styles CSS de l'application Web.
+
+**tailwind.config.js**
+
+Ce fichier configure la configuration Tailwind CSS de l'application Web.
+
+# 5. Exemples d'utilisation
+
+### Capture Screen 1
+
+<img src="https://github.com/imedly/google-calendar-integration/blob/main/src/Capture%20d%E2%80%99%C3%A9cran%20du%202023-08-24%2013-10-09.png" alt="Capture_Image_1" >
+
+### Capture Screen 2
+
+<img src="https://github.com/imedly/google-calendar-integration/blob/main/src/Capture%20d%E2%80%99%C3%A9cran%20du%202023-08-24%2013-10-09.png" alt="Capture_Image_2" >
+
+### Capture Screen 3
+
+<img src="https://github.com/imedly/google-calendar-integration/blob/main/src/Request_Tokens_ConsoleLog.png" alt="Capture_Image_3" >
+
+# 6. Structure du code de l'application
+
+L'application Google Calendar Integration est structurée en deux parties principales : le front-end et le back-end.
+
+**Front-end**
+
+Le front-end de l'application est construit avec React, un framework JavaScript populaire pour créer des interfaces utilisateur. Le front-end est responsable de l'affichage des données des calendriers Google à l'utilisateur.
+
+Le front-end de l'application est structuré en quatre dossiers principaux :
+
+* **components** contient les composants React qui sont utilisés pour afficher les données des calendriers Google.
+* **hooks** contient les hooks React qui sont utilisés pour accéder aux données des calendriers Google.
+* **pages** contient les pages React qui sont utilisées pour afficher différents aspects de l'application.
+* **styles** contient les styles CSS qui sont utilisés pour formater l'affichage des données des calendriers Google.
+
+**Back-end**
+
+Le back-end de l'application est construit avec Node.js, un framework JavaScript populaire pour créer des serveurs Web. Le back-end est responsable de l'accès aux données des calendriers Google et de la fourniture de ces données au front-end.
+
+Le back-end de l'application est structuré en un seul dossier principal :
+
+* **services** contient le service CalendarService, qui est responsable de l'accès aux données des calendriers Google.
+
+Le service CalendarService utilise la Google Calendar API pour accéder aux données des calendriers Google. Il fournit une API REST qui permet au front-end d'accéder aux données des calendriers Google.
+
+L'application Google Calendar Integration est conçue pour être scalable et extensible. Elle est également conçue pour être facile à maintenir et à développer.
+
+L'application Google Calendar Integration est structurée en deux parties principales : le front-end et le back-end.
+
+### Structure des fichiers du Repos Google-Calendar-Integration
+
+Le front-end de l'application est structuré en quatre dossiers principaux :
+
+* **components** contient les composants React qui sont utilisés pour afficher les données des calendriers Google.
+* **hooks** contient les hooks React qui sont utilisés pour accéder aux données des calendriers Google.
+* **pages** contient les pages React qui sont utilisées pour afficher différents aspects de l'application.
+* **styles** contient les styles CSS qui sont utilisés pour formater l'affichage des données des calendriers Google.
+
+**Back-end**
+
+Le back-end de l'application est construit avec Node.js, un framework JavaScript populaire pour créer des serveurs Web. Le back-end est responsable de l'accès aux données des calendriers Google et de la fourniture de ces données au front-end.
+
+Le back-end de l'application est structuré en un seul dossier principal :
+
+* **services** contient le service CalendarService, qui est responsable de l'accès aux données des calendriers Google.
+
+Le service CalendarService utilise la Google Calendar API pour accéder aux données des calendriers Google. Il fournit une API REST qui permet au front-end d'accéder aux données des calendriers Google.
+
+L'application Google Calendar Integration est conçue pour être scalable et extensible. Elle est également conçue pour être facile à maintenir et à développer.
+
+# 7. Mise en déploiement (Script original de Facebook Docs)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Available Scripts
+
+In the project directory, you can run:
+
+#### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+#### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+#### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+#### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+### Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+#### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+#### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+#### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+#### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+#### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+#### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# 8. Remarques et idées de contributions
+
+Voici quelques idées que je planifie rajouter au repos :
+
+* **Ajouter la possibilité de créer, modifier et supprimer des événements.** Cela permettrait aux utilisateurs de gérer leurs calendriers Google depuis l'application Web.
+* **Ajouter la possibilité d'ajouter des événements à des calendriers spécifiques.** Cela permettrait aux utilisateurs de mieux organiser leurs événements.
+* **Ajouter la possibilité de partager des calendriers avec d'autres utilisateurs.** Cela permettrait aux utilisateurs de collaborer sur leurs calendriers.
+* **Ajouter la possibilité de recevoir des notifications sur les événements à venir.** Cela permettrait aux utilisateurs de ne pas manquer d'événements importants.
+* **Ajouter la possibilité de rechercher des événements dans les calendriers.** Cela permettrait aux utilisateurs de trouver rapidement les événements dont ils ont besoin.
+* **Ajouter la possibilité d'exporter les données des calendriers au format CSV ou JSON.** Cela permettrait aux utilisateurs de sauvegarder ou de partager les données de leurs calendriers.
+
+Ces suggestions sont bien sûr à adapter aux besoins spécifiques des utilisateurs. Elles pourraient être implémentées au fur et à mesure du développement de l'application Web.
+
+Voici quelques autres idées plus spécifiques :
+
+* **Ajouter la possibilité de filtrer les événements par date, heure, catégorie, etc.**
+* **Ajouter la possibilité de personnaliser l'affichage des événements.**
+* **Ajouter la possibilité d'ajouter des notes et des commentaires aux événements.**
+* **Ajouter la possibilité de lier des événements à des tâches ou des rappels.**
+
+Ces suggestions permettraient de rendre l'application Web plus flexible et plus puissante.
+
+# 9. License 
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+# 10. Auteurs
+
+Visiter mes projets Github sur <a href="https://github.com/imedly">El Mehdi Iddouch</a>.
